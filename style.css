@@ -1,4 +1,51 @@
 .footer{
-  margin-left : 80px;
+  margin-left : 220px;
+  margin-top: 40px;
   font-size : 18px;
 }
+
+.container{
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  justify-items:center;
+}
+
+.div1, .div2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5em;
+}
+
+.div1 > div, .div2 > div{
+  border-radius: 10px;
+  box-shadow: .5px .5px 5px  gray;
+  text-align: center;
+}
+
+.p2{
+  font-size:3em;
+  margin:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/
+
